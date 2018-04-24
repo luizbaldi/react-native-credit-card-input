@@ -28,13 +28,13 @@
     "max-len": [2, 150, 4, {"ignoreUrls": true}],
     "new-cap": [2, { "capIsNewExceptions": ["Map", "List", "Stack", "Record"]}],
     "func-names": 0,
-    "quotes": [2, "double"],
     "react/jsx-indent-props": [2, 2],
-    "react/jsx-closing-bracket-location": [2, "after-props"],
     "no-use-before-define": [2, { "functions": false }],
     "react/prefer-stateless-function": 0,
     "arrow-body-style": 0,
     "no-nested-ternary": 0,
-    "react/prop-types": 2
+    "react/prop-types": 2,
+    "semi": "off",
+    "comma-dangle": "off"
   }
 }
