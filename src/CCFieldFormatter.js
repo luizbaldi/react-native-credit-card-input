@@ -1,6 +1,6 @@
-import valid from "card-validator";
 import { removeNonNumber, removeLeadingSpaces } from "./Utilities";
 import pick from "lodash.pick";
+import valid from "card-validator"
 
 const limitLength = (string = "", maxLength) => string.substr(0, maxLength);
 const addGaps = (string = "", gaps) => {
